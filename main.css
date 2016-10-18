@@ -1,0 +1,146 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26.sep.2016, 08:50:44
+    Author     : oebar
+*/
+
+footer  {
+    
+    position: relative;
+    bottom: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    color: #7F7F7F;
+    font-size: 11px;
+    background: #404040;
+}
+
+section {
+   width: 50%;
+   margin-left: 25%;
+   background: #F1F1F1;
+   text-align: center;
+   border: #DC3522;
+   border-style: solid;
+   border-width: 1px;
+   border-radius: 10px;
+   margin-top: 5px;
+}
+
+footer p   {
+    color: #7F7F7F;
+}
+
+
+
+body  {
+   background:  #F1F1F1;
+   font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+header  {
+    background: #404040;
+    min-height: 64px;
+    border: #7F7F7F;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+}
+
+nav {
+    float: right;
+    margin-right: 1%;
+    display: block;
+    background: #404040;
+}
+
+header h1   {
+    float: left;
+    margin-top: 14px;
+    margin-left: 10px;
+    color: #E5E5E5;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    color: white;
+}
+
+nav li {
+    padding: 18px 50px;
+    display: inline-block;
+    background: #2A2C2B;
+    margin-left: 7px;
+    font-size: 20px;
+}
+
+a   {
+      text-decoration: none;
+      color: white;
+}
+
+h3  {
+    color: black;
+}
+
+nav li:hover    {
+    border: #DC3522;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    background: #1E1E20;
+}
+
+
+.maincontent    {
+    height: 700px; 
+
+}
+
+#textF  {
+    padding-top: 20%;
+    font-size: 40px;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+
+#motiv  {
+    opacity: 1;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/MV_American_Tern_at_McMurdo_Sound.jpg/1200px-MV_American_Tern_at_McMurdo_Sound.jpg");
+   -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    opacity: 0.1;
+    width: 100%;
+    height: 100%;
+}
+
+#rot  {
+    padding-left: 35%;
+}
+
+#login  {
+    text-align: center;
+}
+
+#login h2  {
+    color: black;
+}
