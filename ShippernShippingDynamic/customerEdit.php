@@ -15,8 +15,7 @@ $row = mysqli_fetch_assoc($result);
 </head>
 <body>
 <div class="form">
-<p><a href="customerDashboard.php">Dashboard</a> 
-| <a href="customerInsert.php">Insert New Record</a> 
+<p><a href="employeeDashboard.php">Dashboard</a> 
 | <a href="logout.php">Logout</a></p>
 <h1>Update Record</h1>
 <?php
@@ -33,7 +32,7 @@ name='".$name."', age='".$age."',
 submittedby='".$submittedby."' where id='".$id."'";
 mysqli_query($con, $update) or die(mysqli_error());
 $status = "Record Updated Successfully. </br></br>
-<a href='customerView.php'>View Updated Record</a>";
+<a href='employeeView.php'>View Updated Record</a>";
 echo '<p style="color:#FF0000;">'.$status.'</p>';
 }else {
 ?>

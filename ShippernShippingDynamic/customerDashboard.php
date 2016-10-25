@@ -15,7 +15,8 @@ include("auth.php");
 <p><a href="customerIndex.php">Home</a><p>
 <p><a href="customerInsert.php">Insert New Record</a></p>
 <p><a href="customerView.php">View Records</a><p>
-<p><a href="customerLogout.php">Logout</a></p>
+<p><a href="shedule.php">View schedule</a><p>
+<p><a href="logout.php">Logout</a></p>
 </div>
 </body>
 </html>
