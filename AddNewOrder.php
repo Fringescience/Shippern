@@ -64,10 +64,10 @@ and open the template in the editor.
            <input type="submit">
           </form>
           <?php 
-           $sql = "INSERT INTO Orders (OrderNr, CustomerNr, ShipID, DestinationID, Weight, OrderDate,
+           $sql = mysql_query("INSERT INTO Orders (OrderNr, CustomerNr, ShipID, DestinationID, Weight, OrderDate,
              SentDate, Category, Paid) VALUES ($_POST[OrderNr] , $_POST[CustomerNr] , $_POST[ShipID] ,
              $_POST[DestinationID] , $_POST[Weight] , $_POST[OrderDate] , $_POST[SentDate] , 
-             $_POST[Category] , $_POST[Paid])";
+             $_POST[Category] , $_POST[Paid])");
              
            
            if ($conn->query($sql) === TRUE) {

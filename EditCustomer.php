@@ -59,8 +59,8 @@ and open the template in the editor.
            <input type="submit">
           </form>
           <?php 
-           $sql = "UPDATE Customer SET PostNr=$_POST[PostNr] , Company=$_POST[Company]
-                     , Email=$_POST[Email] WHERE CustomerNr=$_POST[CustomerNr]";
+           $sql = mysql_query("UPDATE Customer SET PostNr=$_POST[PostNr] , Company=$_POST[Company]
+                     , Email=$_POST[Email] WHERE CustomerNr=$_POST[CustomerNr]");
            
            if ($conn->query($sql) === TRUE) {
             echo "Customer updated successfully";

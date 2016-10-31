@@ -62,9 +62,9 @@ and open the template in the editor.
            <input type="submit">
           </form>
           <?php 
-           $sql = "UPDATE Orders SET PostNr=$_POST[PostNr] , Firstname=$_POST[Firstname]
+           $sql = mysql_query("UPDATE Orders SET PostNr=$_POST[PostNr] , Firstname=$_POST[Firstname]
                      , Surname=$_POST[Surname] , Salary=$_POST[Salary] , Position=$_POST[Position]
-                   , Email=$_POST[Email] WHERE EmployeeID=$_POST[EmployeeID]";
+                   , Email=$_POST[Email] WHERE EmployeeID=$_POST[EmployeeID]");
            
            if ($conn->query($sql) === TRUE) {
             echo "Record updated successfully";
